@@ -10,72 +10,7 @@
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   root.classList.add('js');
 
-  /* ==========================================================================
-     1. Status de Funcionamento em Tempo Real (Fuso Cambé - PR / America/Sao_Paulo)
-     ========================================================================== */
-  function updateBusinessStatus() {
-    var statusEl = document.getElementById('status');
-    var txtEl = document.getElementById('statusTxt');
-    if (!statusEl || !txtEl) return;
-
-    // Obter hora exata no fuso horário do posto (Cambé - PR)
-    var now = new Date();
-    var spFormatter = new Intl.DateTimeFormat('en-US', {
-      timeZone: 'America/Sao_Paulo',
-      hour: 'numeric',
-      minute: 'numeric',
-      hour12: false,
-      weekday: 'short'
-    });
-
-    var parts = spFormatter.formatToParts(now);
-    var hour = 0, min = 0, weekday = '';
-    parts.forEach(function (p) {
-      if (p.type === 'hour') hour = parseInt(p.value, 10);
-      if (p.type === 'minute') min = parseInt(p.value, 10);
-      if (p.type === 'weekday') weekday = p.value.toLowerCase();
-    });
-
-    // Mapeamento de dias
-    var isSunday = weekday.indexOf('sun') !== -1;
-    var isMonday = weekday.indexOf('mon') !== -1;
-
-    var isOpen = true;
-    var message = 'Aberto agora • 24 horas';
-
-    if (isSunday) {
-      if (hour >= 7 && hour < 20) {
-        isOpen = true;
-        message = 'Aberto agora • Domingo até 20h';
-      } else if (hour < 7) {
-        isOpen = false;
-        message = 'Fechado agora • Reabre às 07h';
-      } else {
-        isOpen = false;
-        message = 'Fechado agora • Reabre amanhã às 06h';
-      }
-    } else if (isMonday && hour < 6) {
-      isOpen = false;
-      message = 'Fechado agora • Reabre hoje às 06h (24h)';
-    } else {
-      isOpen = true;
-      message = 'Aberto agora • 24 horas';
-    }
-
-    if (isOpen) {
-      statusEl.classList.remove('closed');
-      statusEl.setAttribute('aria-label', 'Status: Aberto');
-    } else {
-      statusEl.classList.add('closed');
-      statusEl.setAttribute('aria-label', 'Status: Fechado');
-    }
-
-    txtEl.textContent = message;
-  }
-
-  updateBusinessStatus();
-  // Atualiza automaticamente a cada minuto
-  setInterval(updateBusinessStatus, 60000);
+  
 
   /* ==========================================================================
      2. Animações de Scroll (IntersectionObserver) & Contadores Numéricos
