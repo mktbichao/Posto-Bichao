@@ -1,0 +1,142 @@
+[
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/posto-pista-caminhao.jpg",
+    "name": "foto-01.jpg",
+    "title": "Pista Principal & Abastecimento Pesado",
+    "desc": "Estrutura completa para caminhões e veículos de passeio com combustíveis Ipimax 24h.",
+    "cat": "pista"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/posto-conveniencia-entrada.jpg",
+    "name": "foto-02.jpg",
+    "title": "Entrada da Conveniência & Mural de Adesivos",
+    "desc": "A clássica porta com adesivos de grupos, estradeiros e viajantes de todo o Brasil.",
+    "cat": "conveniencia"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/posto-jet-oil.jpg",
+    "name": "foto-03.jpg",
+    "title": "Box Jet Oil Especializado",
+    "desc": "Troca de óleo rápida com garantia Texaco e Ipiranga, com verificação de cortesia.",
+    "cat": "servicos"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/gallery-01.webp",
+    "name": "foto-04.webp",
+    "title": "Encontros de Carros & Amigos",
+    "desc": "Ponto de encontro oficial de clubes automotivos, motociclistas e apaixonados por motor.",
+    "cat": "encontros"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/gallery-02.webp",
+    "name": "foto-05.webp",
+    "title": "Noite Iluminada no Bichão",
+    "desc": "Pátio 100% iluminado e seguro para parada a qualquer hora da noite ou madrugada.",
+    "cat": "pista"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/gallery-03.webp",
+    "name": "foto-06.webp",
+    "title": "Ambiente Aconchegante da Conveniência",
+    "desc": "Mesas confortáveis, ar-condicionado, Wi-Fi e tomadas para recarregar as energias.",
+    "cat": "conveniencia"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/gallery-04.webp",
+    "name": "foto-07.webp",
+    "title": "Espaço dos Amigos & Confraternização",
+    "desc": "Quem passa pelo Bichão sempre encontra uma boa conversa e acolhimento paranaense.",
+    "cat": "encontros"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/instagram-visita.webp",
+    "name": "foto-08.webp",
+    "title": "Visitas Especiais & Clientes Fiéis",
+    "desc": "Momentos registrados com motoristas parceiros que não abrem mão de parar aqui.",
+    "cat": "encontros"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/instagram-confianca.webp",
+    "name": "foto-09.webp",
+    "title": "Atendimento de Confiança na Pista",
+    "desc": "Nossa equipe pronta para atender com agilidade, simpatia e padrão Ipiranga.",
+    "cat": "pista"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/instagram-outubro-rosa.webp",
+    "name": "foto-10.webp",
+    "title": "Ações Sociais & Comunidade",
+    "desc": "Campanhas de conscientização e apoio à comunidade de Cambé e região.",
+    "cat": "encontros"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/conveniencia-main.webp",
+    "name": "foto-11.webp",
+    "title": "Café Fresco & Salgados Quentinhos",
+    "desc": "Variedade em lanches, bebidas geladas, cafés especiais e conveniência 24 horas.",
+    "cat": "conveniencia"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/abastecimento.webp",
+    "name": "foto-12.webp",
+    "title": "Linha Completa de Combustíveis Ipimax",
+    "desc": "Mais rendimento e proteção para o motor do seu carro ou caminhão.",
+    "cat": "pista"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/posto-exterior.webp",
+    "name": "foto-13.webp",
+    "title": "Fachada & Vista Geral do Complexo",
+    "desc": "Acesso fácil pela rodovia e vias locais de Cambé, com ampla área de manobra.",
+    "cat": "pista"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/social-01.webp",
+    "name": "foto-14.webp",
+    "title": "Encontro de Estradeiros no Pátio",
+    "desc": "A irmandade da estrada tem parada certa e segura no Posto Bichão.",
+    "cat": "encontros"
+  },
+  {
+    "src": "E:/SITES/NOVO PROJETO BICHAO/public/images/social-02.webp",
+    "name": "foto-15.webp",
+    "title": "Café & Bate-Papo Matinal",
+    "desc": "O ponto de encontro diário dos moradores locais e profissionais do transporte.",
+    "cat": "conveniencia"
+  },
+  {
+    "src": "c:/Users/cliente/Documents/LANDING PAGE - BICHÃO/public/images/gallery/gallery-01.jpeg",
+    "name": "foto-16.jpg",
+    "title": "Reunião de Motociclistas & Clubes",
+    "desc": "Final de semana animado com passeios sobre duas rodas e parada estratégica.",
+    "cat": "encontros"
+  },
+  {
+    "src": "c:/Users/cliente/Documents/LANDING PAGE - BICHÃO/public/images/gallery/gallery-02.jpeg",
+    "name": "foto-17.jpg",
+    "title": "Pátio Espaçoso para Manobras",
+    "desc": "Segurança, espaço para estacionar carretas e apoio ao motorista de carga.",
+    "cat": "servicos"
+  },
+  {
+    "src": "c:/Users/cliente/Documents/LANDING PAGE - BICHÃO/public/images/gallery/gallery-03.jpeg",
+    "name": "foto-18.jpg",
+    "title": "Calibragem Digital & Manutenção Rápida",
+    "desc": "Calibrador de pneus digital e aferição de cortesia para seguir viagem tranquilo.",
+    "cat": "servicos"
+  },
+  {
+    "src": "c:/Users/cliente/Documents/LANDING PAGE - BICHÃO/public/images/gallery/gallery-04.jpeg",
+    "name": "foto-19.jpg",
+    "title": "Produtos & Acessórios Automotivos",
+    "desc": "Aditivos, palhetas, lubrificantes e itens essenciais para sua viagem.",
+    "cat": "servicos"
+  },
+  {
+    "src": "c:/Users/cliente/Documents/LANDING PAGE - BICHÃO/public/images/convenience/conveniencia-image.jpg",
+    "name": "foto-20.jpg",
+    "title": "Gôndolas & Variedade na Conveniência",
+    "desc": "Snacks, doces, bebidas importadas e nacionais para todos os gostos.",
+    "cat": "conveniencia"
+  }
+]
